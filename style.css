@@ -54,7 +54,7 @@ p{
     margin-left: 70px;
     color: #FA6957;
 }
-.flexible-container{
+.exp-container{
     display: flex;
     margin-bottom: 150px;
     background-image: url(images/exp-bg.png);
