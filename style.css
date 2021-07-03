@@ -1,5 +1,6 @@
 body {
     font-family: poppins;
+    margin: 0;
 }
 h1 {
     font-size: 46px;
@@ -7,12 +8,16 @@ h1 {
 h3{
     font-size: 30px;
 }
-section {
+.topBanner {
     display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
 }
+
 .half-width {
     width: 50%;
-    padding-left: 80px;
+    padding: 0 60px;
 }
 .half-width img {
     width: 100%;
@@ -28,4 +33,13 @@ section {
     border-radius: 5px;
     font-weight: 600;
     margin-top: 30px;
+}
+p{
+    text-align: justify;
+}
+.dreamBig {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
 }
