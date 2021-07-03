@@ -8,7 +8,7 @@ h1 {
 h3{
     font-size: 26px;
 }
-.flexible-container {
+.topBanner {
     display: flex;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
@@ -38,9 +38,29 @@ p{
     text-align: justify;
     
 }
-.flexible-container {
+.dreamBig {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
+}
+.experience-item {
+    width: 50%;
+    padding: 40px 25px;
+    margin: 0 6%;
+    box-shadow: 10px 10px 40px rgb(138, 138, 138);
+}
+.head{
+    margin-left: 70px;
+    color: #FA6957;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p {
+    text-align: center;
 }
