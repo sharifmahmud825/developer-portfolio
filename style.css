@@ -6,9 +6,9 @@ h1 {
     font-size: 46px;
 }
 h3{
-    font-size: 30px;
+    font-size: 26px;
 }
-.topBanner {
+.flexible-container {
     display: flex;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
@@ -36,8 +36,9 @@ h3{
 }
 p{
     text-align: justify;
+    
 }
-.dreamBig {
+.flexible-container {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
